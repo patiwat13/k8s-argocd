@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: liquid07/k8s-ha:88723bef677cfd510f189f62c7d57373cebd926d
+          image: liquid07/k8s-ha:9c209c340a05b25cfd6d2bef3bccc142792c3d29
           ports:
             - containerPort: 80
           env:
